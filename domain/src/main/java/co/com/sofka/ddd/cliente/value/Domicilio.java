@@ -9,6 +9,7 @@ public class Domicilio implements ValueObject<String> {
     private final String value;
 
     public Domicilio(String value) {
+        Objects.requireNonNull(value);
         this.value = value;
     }
 

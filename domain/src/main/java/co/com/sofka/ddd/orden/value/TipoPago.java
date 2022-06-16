@@ -9,6 +9,7 @@ public class TipoPago implements ValueObject<String> {
     private final String value;
 
     public TipoPago(String value) {
+        Objects.requireNonNull(value);
         this.value = value;
     }
 

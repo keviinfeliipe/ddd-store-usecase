@@ -8,6 +8,10 @@ public class Cantidad implements ValueObject<Integer> {
     private final Integer value;
 
     public Cantidad(Integer value) {
+        Objects.requireNonNull(value);
+        if (value<=0){
+            throw new IllegalArgumentException("El valor no puede menor o igual a 0");
+        }
         this.value = value;
     }
 

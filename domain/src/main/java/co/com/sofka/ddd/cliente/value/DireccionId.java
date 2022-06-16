@@ -4,12 +4,11 @@ import co.com.sofka.domain.generic.Identity;
 
 public class DireccionId extends Identity {
 
-    public DireccionId(String uuid) {
+    private DireccionId(String uuid) {
         super(uuid);
     }
 
-    public DireccionId() {
-    }
+    public DireccionId() {}
 
     public static DireccionId of(String id){
         return new DireccionId(id);

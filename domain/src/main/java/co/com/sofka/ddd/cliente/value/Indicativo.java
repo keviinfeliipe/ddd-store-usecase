@@ -9,7 +9,8 @@ public class Indicativo implements ValueObject<Integer> {
     private final Integer value;
 
     public Indicativo(Integer value) {
-        this.value = Objects.requireNonNull(value);
+        Objects.requireNonNull(value);
+        this.value = value;
     }
 
     @Override

@@ -9,6 +9,7 @@ public class Valor implements ValueObject<Integer> {
     private final Integer value;
 
     public Valor(Integer value) {
+        Objects.requireNonNull(value);
         this.value = value;
     }
 

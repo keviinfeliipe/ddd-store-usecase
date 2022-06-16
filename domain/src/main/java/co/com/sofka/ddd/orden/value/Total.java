@@ -9,6 +9,7 @@ public class Total implements ValueObject<Integer> {
     private final Integer value;
 
     public Total(Integer value) {
+        Objects.requireNonNull(value);
         this.value = value;
     }
 

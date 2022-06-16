@@ -9,7 +9,8 @@ public class Pais implements ValueObject<String> {
     private final String value;
 
     public Pais(String value) {
-        this.value = Objects.requireNonNull(value);
+        Objects.requireNonNull(value);
+        this.value = value;
     }
 
     @Override

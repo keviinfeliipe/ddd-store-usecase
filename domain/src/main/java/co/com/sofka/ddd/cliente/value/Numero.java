@@ -8,7 +8,8 @@ public class Numero implements ValueObject<Integer> {
     private final Integer value;
 
     public Numero(Integer value) {
-        this.value = Objects.requireNonNull(value);
+        Objects.requireNonNull(value);
+        this.value = value;
     }
 
     @Override

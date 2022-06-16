@@ -4,7 +4,7 @@ import co.com.sofka.domain.generic.Identity;
 
 public class PersonaId extends Identity {
 
-    public PersonaId(String uuid) {
+    private PersonaId(String uuid) {
         super(uuid);
     }
 

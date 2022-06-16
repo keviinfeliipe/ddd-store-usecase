@@ -18,10 +18,11 @@ public class Persona extends AggregateEvent<PersonaId> {
 
     public Persona(PersonaId entityId, Nombre nombre, Email email) {
         super(entityId);
+        subscribe(new PersonaChange(this));
         appendChange(new PersonaCreada(nombre,email)).apply();
     }
 
-    public Persona(PersonaId entityId) {
+    private Persona(PersonaId entityId) {
         super(entityId);
         subscribe(new PersonaChange(this));
     }
