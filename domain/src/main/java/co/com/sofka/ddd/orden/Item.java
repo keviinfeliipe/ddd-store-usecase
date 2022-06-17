@@ -3,7 +3,7 @@ package co.com.sofka.ddd.orden;
 import co.com.sofka.ddd.orden.value.Cantidad;
 import co.com.sofka.ddd.orden.value.ItemId;
 import co.com.sofka.ddd.orden.value.Valor;
-import co.com.sofka.ddd.producto.ProductoId;
+import co.com.sofka.ddd.producto.value.ProductoId;
 import co.com.sofka.domain.generic.Entity;
 
 import java.util.Objects;

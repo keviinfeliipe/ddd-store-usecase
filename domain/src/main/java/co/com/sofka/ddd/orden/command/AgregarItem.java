@@ -4,7 +4,7 @@ import co.com.sofka.ddd.orden.value.Cantidad;
 import co.com.sofka.ddd.orden.value.EnvioId;
 import co.com.sofka.ddd.orden.value.ItemId;
 import co.com.sofka.ddd.orden.value.Valor;
-import co.com.sofka.ddd.producto.ProductoId;
+import co.com.sofka.ddd.producto.value.ProductoId;
 import co.com.sofka.domain.generic.Command;
 
 public class AgregarItem extends Command {

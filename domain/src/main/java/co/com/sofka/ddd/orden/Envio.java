@@ -6,7 +6,7 @@ import co.com.sofka.ddd.orden.event.EnvioCreado;
 import co.com.sofka.ddd.orden.event.FormaPagoActualizada;
 import co.com.sofka.ddd.orden.event.ItemAgregado;
 import co.com.sofka.ddd.orden.value.*;
-import co.com.sofka.ddd.producto.ProductoId;
+import co.com.sofka.ddd.producto.value.ProductoId;
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
 
