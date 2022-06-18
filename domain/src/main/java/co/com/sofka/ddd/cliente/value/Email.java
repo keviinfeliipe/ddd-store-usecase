@@ -9,7 +9,7 @@ public class Email implements ValueObject<String> {
 
     public Email(String value) {
         Objects.requireNonNull(value);
-        if (!value.matches("^[_A-Za-z0-9-\\\\+]+(\\\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\\\.[A-Za-z0-9]+)*(\\\\.[A-Za-z]{2,})*/[A-Za-z0-9-]+(\\\\.[A-Za-z0-9]+)$")){
+        if (!value.matches("^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$")){
             throw new IllegalArgumentException("El email no es valido");
         }
         this.value = value;
