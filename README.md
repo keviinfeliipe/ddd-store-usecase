@@ -33,5 +33,7 @@
 <img src="https://i.postimg.cc/zBjwHSzC/Eventos-de-dominio-Envio.png" width="500" title="hover text"/>
 <img src="https://i.postimg.cc/c1FMsm5Z/Eventos-de-dominio-Producto.png" width="500" title="hover text"/>
 <hr>
+<h2>Caso de uso</h2>
+<p>Se crea un caso de uso con el objetivo de crear una objeto de la clase persona, a su vez se crea su respectivo test para validar funcionamiento y restricciones de los objetos de valor</p>
 <h2>Video de explicacion</h2>
 <p>A continiación se presenta el video con la explicación del video</p>
